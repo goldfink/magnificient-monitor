@@ -66,6 +66,8 @@ if True:
             data["fatals"] = 0
             data["successes"] = 0
             data["avg_rsp"] = 0
+            averages_cache = []
+            # clear cache too
             if (last_state == "connectionerror"):
                 log("stats_fatal", "System seems down!")
             t2 = time.time()
