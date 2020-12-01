@@ -2,7 +2,6 @@ import json
 import daemon
 import time
 import requests
-import os
 # global variables
 
 log_file = "magnificent.log"
